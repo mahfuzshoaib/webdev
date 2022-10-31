@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+    background: #BCE29E;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    padding: 5px 10px;
+}
+.logo h1{
+    float: right;
+    padding: 25px 0;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #4e4e4e;
+    padding-right: 30px;
+    font-size: 18px;
+    line-height: 100px;
+}
+.menu ul li a:hover{
+    color: black;
+}
+/* Slider Part Start */
+.slider{
+    height: 80vh;
+    width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.6)), url("./img/slide.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider h1{
+    position: absolute;
+    font-size: 35px;
+    top: 40%;
+    left: 25%;
+    color: antiquewhite;
+}
+.slider p{
+    position: absolute;
+    top: 48%;
+    left: 38%;
+    text-align: center;
+    color: antiquewhite;
+}
+.slider a{
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    color: antiquewhite;
+    transition-duration: 0.5s;
+}
+.slider a:hover{
+    background-color: #4e4e4e;
+    color: whitesmoke;
+}
+/* Slider Part End */
+    /* Hero Part Start */
+    .hero{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .service-title{
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+        gap: 5px;
+    }
+    span{
+        color: tomato;
+    }
+    .card{
+    text-align: center;
+    padding: 20px;
+    background: rgb(112, 244, 114);
+    }
+    .card img{
+        width: 50px;
+        height: 50px;
+        border: 2px solid tomato;
+        border-radius: 50%;
+    }
+    /* Hero Part End */
