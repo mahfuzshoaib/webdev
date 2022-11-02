@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header part start */
+header{
+    background-color: #9E5BBA;
+    height: 30px;
+    border-bottom: 1px solid #E40001;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 14px;
+}
+.header_right{
+    display: flex;
+    justify-content: end;
+}
+.header_right p{
+    border-right: 1px solid white;
+    padding-right: 15px;
+}
+.header_right a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+/* header part end */
+/* logo part start */
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+/* logo part end */
