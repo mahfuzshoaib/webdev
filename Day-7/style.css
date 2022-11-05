@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./Assets/images/background/bg_main.gif) center center;
+    background-repeat: no-repeat;
+}
+/* header part start */
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+header{
+    background-color: #9E5BBA;
+    height: 30px;
+    border-bottom: 1px solid #E40001;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 14px;
+}
+/* .header_right{ 
+    display: flex;
+    justify-content: end;
+}*/
+.header_right p{
+    display: inline-block;
+    border-right: 1px solid white; 
+    padding-right: 15px;
+}
+.header_right a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+/* header part end */
+/* logo part start */
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search input{
+    width: 65%;
+}
+.logo_search{
+    padding-top: 45px;
+}
+button{
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.logo-right{
+    padding-top: 30px;
+}
+.logo1{
+    border-right: 1px solid #eee;
+    padding-right: 5px;
+    margin-right: 10px;
+    height: 50px;
+}
+.logo2{
+    height: 30px;
+}
+/* logo part end */
+/* hero main part start */
+.banner{
+    border: 2px solid red;
+    padding: 10px;
+}
+.slider{
+    padding: 10px;
+}
+.slider img{
+    height: 300px;
+    width: 100%;
+}
+/* hero main part end */
