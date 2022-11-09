@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./Assets/images/background/bg_main.gif) center center;
+    background-repeat: no-repeat;
+}
+/* header part start */
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+header{
+    background-color: #9E5BBA;
+    height: 30px;
+    border-bottom: 1px solid #E40001;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 14px;
+}
+/* .header_right{ 
+    display: flex;
+    justify-content: end;
+}*/
+.header_right p{
+    display: inline-block;
+    border-right: 1px solid white; 
+    padding-right: 15px;
+}
+.header_right a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+/* header part end */
+/* logo part start */
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search input{
+    width: 65%;
+}
+.logo_search{
+    padding-top: 45px;
+}
+button{
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.logo-right{
+    padding-top: 30px;
+}
+.logo1{
+    border-right: 1px solid #eee;
+    padding-right: 5px;
+    margin-right: 10px;
+    height: 50px;
+    margin-top: 25px;
+}
+.logo2{
+    margin-top: 25px;
+    height: 30px;
+}
+/* logo part end */
+/* hero main part start */
+.banner{
+    border: 2px solid red;
+    padding: 10px;
+}
+/* hero main part end */
+/* Slider part start */
+.slider{
+    padding: 10px;
+}
+.slider img{
+    height: 300px;
+    width: 100%;
+}
+/* Slider part end */
+/* Tab part start */
+.tab a {
+    display: block;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+    color: #609543;
+    font-weight: bold
+}
+/* Tab part end */
+/* notice part start */
+.notice{
+    margin: 40px 0 0 0 ;
+}
+.notice h6{
+    color: #69308F;
+    font-weight: bold;
+}
+.notice ul{
+    list-style: none;
+    width: 60%;
+    margin-top: 20px;
+}
+.notice ul li{
+    border-bottom: 1px solid #609543;
+    margin-top: 20px;
+    font-size: small;
+}
+.notice ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+#tt{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+/* notice part end */
+/* Hero sidebar start */
+.sidebar_img img{
+
+}
+.vid_head{
+    width: 100%;
+    height: 30px;
+    background-color: #609513;
+    color: white;
+    margin: 5px 0 0 0;
+    padding: 5px 0;
+}
+/* Hero sidebar end */
